@@ -7,6 +7,8 @@ public class Main {
         System.out.println(mensaje);
     }
 //ejercicio 5
+    //  Solicite el ingreso de un número y conviértalo a un String mediante String.valueOf
+
     public static void convertirNumeroACadena() {
         Scanner scaner = new Scanner(System.in);
         print("introduci un numero");
@@ -18,6 +20,7 @@ public class Main {
 
     }
 // ejercicio 6
+    //Del siguiente String “La lluvia en Mendoza es escasa” indique cual es el tamaño de la cadena es decir su número de caracteres.
     public static void tamañoDeLaCadena() {
         String texto = "La lluvia en Mendoza es escasa";
         int longitud = texto.length();
@@ -51,6 +54,9 @@ public class Main {
 
 
     }
+    // ejerccio 7
+    // olicite el ingreso de una cadena y determine el tamaño de la misma y cuantas vocales
+    //tiene en total (recorre el String con charAt)
 public static void contadorDeVocales2() {
     Scanner scaner = new Scanner(System.in);
     print("introduce una cadena ");
@@ -63,6 +69,7 @@ public static void contadorDeVocales2() {
 
     }
     // ejercicio 8
+    //- Reemplaza todas las a del String anterior por una e. (aplique replace)
     public static void modificadorDeTexto (){
         String textos3 = "La lluvia en Mendoza es escasa";
         String textoModificado = textos3.replace('a', 'e');
@@ -71,6 +78,7 @@ public static void contadorDeVocales2() {
 
     }
     // ejercicio 9
+    //Recorre el String del ejercicio 6 y transforma cada carácter a su código ASCII. Muéstralos en línea recta, separados por un espacio entre cada carácter.
     public static void convertidorDeTextoAascii() {
 
         String text0sacodigo = "La lluvia en Mendoza es escasa";
